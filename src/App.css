@@ -3,12 +3,20 @@
   height: 80px;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 h1 {
   padding: 20px 0;
   font-size: 30px;
+}
+
+.main-content {
+  margin-top: 40px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content input {
+  max-width: 100%;
 }
