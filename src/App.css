@@ -5,7 +5,7 @@
 
 h1 {
   padding: 20px 0;
-  font-size: 30px;
+  font-size: 26px;
 }
 
 .main-content {
@@ -28,6 +28,10 @@ h1 {
   width: 18rem;
   background: hsl(0, 0%, 98%);
   border-radius: 5px;
+}
+
+.card__body {
+  padding: 20px;
 }
 
 .card img {
