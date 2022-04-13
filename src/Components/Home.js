@@ -1,5 +1,6 @@
 import React from 'react'
 import Select from 'react-select';
+import Card from './Card';
 
 const options = [
   { value: 'africa', label: 'Africa' },
@@ -20,6 +21,7 @@ const Home = () => {
               <input aria-label="text" placeholder="Search for a country..."></input>
               <Select placeholder="Filter by Region" options={options} />
             </div>
+            <Card />
           </div>
         </div>
       </div>
