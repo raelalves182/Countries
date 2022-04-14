@@ -4,3 +4,5 @@
 /* Card */
 @import '../Components/Card/card.scss';
 
+/* Home */
+@import '../Components/Home/home.scss';

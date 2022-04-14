@@ -1,7 +1,7 @@
 import '../src/styles/App.css';
 import 'flexboxgrid';
 import Header from '../src/Components/Header/Header';
-import Home from './Components/Home';
+import Home from '../src/Components/Home/Home';
 
 function App() {
   return (
