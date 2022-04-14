@@ -1,6 +1,6 @@
-import './App.css';
+import '../src/styles/App.css';
 import 'flexboxgrid';
-import Header from './Components/Header';
+import Header from '../src/Components/Header/Header';
 import Home from './Components/Home';
 
 function App() {

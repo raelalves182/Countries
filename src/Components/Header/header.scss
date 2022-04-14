@@ -1,0 +1,22 @@
+.header-main {
+  box-shadow: 0 -4px 6px black;
+  height: 80px;
+}
+
+h1 {
+  padding: 20px 0;
+  font-size: 26px;
+}
+
+.main-content {
+  margin-top: 40px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content input {
+  max-width: 100%;
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import Select from 'react-select';
-import Card from './Card';
+import Card from '../Components/Card/Card';
 
 const options = [
   { value: 'africa', label: 'Africa' },

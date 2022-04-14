@@ -1,11 +1,11 @@
 import React from 'react'
-import Germany from '../Assets/germany.jpg';
+import Germany from '../../Assets/germany.jpg';
 
 const Card = () => {
   return (
     <div className="card">
       <img src={Germany} alt="Germany" />
-      <div className="card__body">
+      <div className="body">
         <h2>Germany</h2>
         <div className="description">
           <ul>
