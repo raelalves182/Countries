@@ -3,6 +3,11 @@
   height: 80px;
 }
 
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
 h1 {
   padding: 20px 0;
   font-size: 26px;
