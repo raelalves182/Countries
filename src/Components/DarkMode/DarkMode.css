@@ -1,9 +1,9 @@
 /* 1 */
-/* :root {
+:root {
   --font-color: #333;
   --background-color: #eee;
   --link-color: cornflowerblue;
-} */
+}
 
 /* 2 */
 [data-theme="dark"] {
@@ -23,7 +23,8 @@ a {
   color: var(--link-color);
 }
 
-.header-main, .card, .textField, .select {
+/* Header, Card and TextField */
+.header-main, .card, .textField {
   background-color: var(--background-color);
   color: var(--font-color);
 }
@@ -34,6 +35,27 @@ a {
 
 .textField .MuiInputAdornment-root {
   color: var(--font-color);
+}
+
+/* Select */
+.select .css-1s2u09g-control  {
+  background-color: var(--background-color);
+}
+
+.select .css-qc6sy-singleValue {
+  color: var(--font-color);
+}
+
+.select #react-select-3-listbox {
+  background-color: var(--background-color);
+}
+
+.select .css-1pahdxg-control {
+  background-color: var(--background-color);
+}
+
+.select .css-2613qy-menu {
+  background-color: var(--background-color);
 }
 
 /* Custom Dark Mode Toggle Element */
