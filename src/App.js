@@ -1,4 +1,5 @@
 import '../src/styles/App.css';
+import '../src/Components/DarkMode/DarkMode.css'
 import 'flexboxgrid';
 import Header from '../src/Components/Header/Header';
 import Home from '../src/Components/Home/Home';

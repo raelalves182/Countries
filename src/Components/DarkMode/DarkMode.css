@@ -1,25 +1,39 @@
 /* 1 */
-:root {
+/* :root {
   --font-color: #333;
   --background-color: #eee;
   --link-color: cornflowerblue;
-}
+} */
 
 /* 2 */
 [data-theme="dark"] {
-  --font-color: #eee;
-  --background-color: #333;
+  --font-color: #FFF;
+  --background-color: hsl(209, 23%, 22%);
+  --background: hsl(207, 26%, 17%);
   --link-color: lightblue;
 }
 
 /* 3 */
 body {
-  background-color: var(--background-color);
+  background-color: var(--background);
   color: var(--font-color);
 }
 
 a {
   color: var(--link-color);
+}
+
+.header-main, .card, .textField, .select {
+  background-color: var(--background-color);
+  color: var(--font-color);
+}
+
+.textField .MuiInputBase-root {
+  color: var(--font-color);
+}
+
+.textField .MuiInputAdornment-root {
+  color: var(--font-color);
 }
 
 /* Custom Dark Mode Toggle Element */

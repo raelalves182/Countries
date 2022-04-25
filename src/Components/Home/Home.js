@@ -23,6 +23,7 @@ const Home = () => {
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div className="content">
               <Box 
+                className="textField"
                 sx={{
                   width: 460,
                   maxWidth: '100%',
@@ -33,7 +34,7 @@ const Home = () => {
                   }
                 }}
               >
-                <TextField 
+                <TextField                 
                   fullWidth
                   placeholder="Search for a Country..."
                   focused={false}
@@ -46,7 +47,7 @@ const Home = () => {
                   }}
                 />
               </Box>
-              <div>
+              <div className="select">
                 <Select placeholder="Filter by Region" options={options} />
               </div>
             </div>
