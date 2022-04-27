@@ -25,11 +25,14 @@ const Home = () => {
               <Box 
                 className="textField"
                 sx={{
-                  width: 460,
-                  maxWidth: '100%',
+                  width: '100%',
+                  maxWidth: '460px',
+                  "& .MuiOutlinedInput-root": {
+                    padding: "10px"
+                  },
                   "& .MuiOutlinedInput-root:hover": {
                     "& > fieldset": {
-                      borderColor: "#aaa"
+                      borderColor: "transparent"
                     }
                   }
                 }}
