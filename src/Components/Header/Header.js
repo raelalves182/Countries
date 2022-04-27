@@ -8,7 +8,7 @@ const Header = () => {
         <div className="row">
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div className="menu">
-              <h1>Where in the world?</h1>
+              <a href="/">Where in the world?</a>
               <DarkMode />
             </div>
           </div>
