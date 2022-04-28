@@ -26,4 +26,24 @@
     justify-items: center;
     gap: 30px;
   }
+
+  .content {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .css-557mdn {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .menu a {
+    font-size: 20px;
+  }
+
+  .content .css-557mdn {
+    width: 90%;
+  }
 }
