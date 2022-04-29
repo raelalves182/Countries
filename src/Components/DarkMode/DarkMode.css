@@ -30,6 +30,11 @@ a {
   color: var(--font-color);
 }
 
+.select, .textField {
+  box-shadow: 0px 0px 1px grey;
+  border-radius: 4px;
+}
+
 .textField .MuiInputBase-root {
   color: var(--font-color);
 }

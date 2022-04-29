@@ -7,6 +7,10 @@
 /* Home */
 @import '../Components/Home/home.scss';
 
+.App {
+  overflow: hidden;
+}
+
 
 /* Desktop */
 @media screen and (min-width: 1024px) and (max-width: 1199px) {

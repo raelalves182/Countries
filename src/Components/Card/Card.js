@@ -20,7 +20,7 @@ const Card = () => {
       <div className="card">
         <img src={require('../../Assets/estados-unidos.jpg')} alt="Estados Unidos" />
         <div className="body">
-          <h2>United States od America</h2>
+          <h2>United States of America</h2>
           <div className="description">
             <ul>
               <li><span>Population:</span> 323,947,000</li>
