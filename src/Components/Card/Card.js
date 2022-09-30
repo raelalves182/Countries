@@ -1,6 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const Card = () => {
+  useEffect(() => {
+    fetch('https://api.github.com/users/raelalves182')
+      .then(response => {
+        if ( response.ok ) {
+          return response.json();
+        }
+        throw response;
+      })
+      .then((data) => {
+        console.log(data);
+      })
+      .catch(erro => console.log(erro))
+  }, [])
+
   return (
     <div className="grid">
       <div className="card">

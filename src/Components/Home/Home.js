@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react';
 import Select from 'react-select';
 import Card from '../Card/Card';
 // Material
@@ -14,22 +14,7 @@ const options = [
   { value: 'oceania', label: 'Oceania' }
 ]
 
-
 const Home = () => {
-  useEffect(() => {
-    fetch('https://restcountries.com/v3.1/all')
-      .then(response => {
-        if ( response.ok ) {
-          return response.json();
-        }
-        throw response;
-      })
-      .then(obj => {
-        console.log(obj);
-      })
-      .catch(erro => console.log(erro))
-  }, [])
-
   return (
     <main className="main-content">
       <div className="container">
